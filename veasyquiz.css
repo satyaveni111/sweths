@@ -1,0 +1,301 @@
+body {
+    color: #131842;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F4F4 !important;
+}
+
+.bg-color {
+    background-color: white;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+h1 {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+h2 {
+    color: #131842;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto" !important;
+    font-weight: 700 !important;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.timer {
+    font-size: 45px !important;
+    font-weight: bold;
+    color: #131842;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px;
+    border-radius: 8px;
+}
+
+.sub,
+.no-of-questions-attempted,
+.difficulty-level {
+    padding: 10px;
+    color: #E68369;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.question-container {
+    background-color: white;
+    border: 2px solid #131842;
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#question {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #131842;
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #131842;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    margin-left: 0;
+    align-self: center;
+}
+
+#submit {
+    background-color: transparent;
+    color: #131842;
+    font-size: 24px;
+    border: 2px solid #131842;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #131842;
+    color: aliceblue;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 23px;
+    color: rgb(165, 16, 16);
+    font-weight: bold;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#endAssessmentBtn {
+    margin-top: 20px;
+    background-color: #131842;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#endAssessmentBtn:hover {
+    background-color: #E68369;
+}
+
+#scoreCard {
+    background-color: white;
+    border: 8px solid #131842;
+    margin-top:90px;
+    border-radius: 10px;
+    text-align: left;
+    width: 60%;
+    height: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#correctAnswerScore,
+#wrongAnswerScore,
+#score {
+    font-size: 1.2rem;
+    color: #131842;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreCard h2 {
+    color: #E68369;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#correctAnswerScore,
+#wrongAnswerScore,
+#noofquestionsAttempted {
+    font-size: 24px;
+    color: #131842;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#score {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #16325B;
+    font-size: 2rem;
+}
+
+#correctAnswerScore {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#wrongAnswerScore {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#correctAnswerScore {
+    margin-top: 50px;
+}
+
+.tech {
+    color: #131842;
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quest {
+    color: #E68369;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+}
+
+.welcome-text {
+    font-size: 30px;
+    color: #1C6758;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.assessment {
+    text-align: right !important;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F96666;
+}
+
+.scoreHome {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    background-color: #131842;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.scoreHome:hover {
+    background-color: #E68369;
+}
+@media (max-width: 480px) {
+    .welcome-text {
+        font-size: 1.2rem;
+    }
+    .score-home {
+        font-size: 1rem;
+        padding: 8px;
+    }
+}
+.question-text {
+    color: #131842; /* Dark blue text color */
+    font-size: 25px; /* Adjust the size as needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+/* Ensure the code block fits inside the container */
+pre.code-block {
+    background-color: white; /* Light gray background */
+    color:#131842; /* Dark text for code */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: start;
+    overflow-x: auto; /* Allow horizontal scrolling if necessary */
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px; /* Adjust font size for readability */
+}
